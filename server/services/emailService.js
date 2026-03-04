@@ -6,11 +6,22 @@ class EmailService {
     this._initialized = false;
     this._useResend = false;
     this._resendApiKey = null;
+    this._useBrevo = false;
+    this._brevoApiKey = null;
     this._initPromise = this._init();
   }
 
   async _init() {
-    // Check for Resend API key first (works on Railway, no SMTP needed)
+    // Priority 1: Brevo HTTP API (free 300/day, no domain verification needed)
+    if (process.env.BREVO_API_KEY) {
+      this._useBrevo = true;
+      this._brevoApiKey = process.env.BREVO_API_KEY;
+      console.log('✉️  Email service: using Brevo HTTP API');
+      this._initialized = true;
+      return;
+    }
+
+    // Priority 2: Resend HTTP API
     if (process.env.RESEND_API_KEY) {
       this._useResend = true;
       this._resendApiKey = process.env.RESEND_API_KEY;
@@ -65,6 +76,41 @@ class EmailService {
     if (!this._initialized) await this._initPromise;
   }
 
+  // Send via Brevo (Sendinblue) HTTP API - free 300/day, no domain verification
+  async _sendViaBrevo(mailOptions, logLabel) {
+    try {
+      const senderEmail = process.env.EMAIL_USER || 'noreply@timely.app';
+      const senderName = 'Timely App';
+      const response = await fetch('https://api.brevo.com/v3/smtp/email', {
+        method: 'POST',
+        headers: {
+          'api-key': this._brevoApiKey,
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          sender: { name: senderName, email: senderEmail },
+          to: [{ email: mailOptions.to }],
+          subject: mailOptions.subject,
+          htmlContent: mailOptions.html
+        })
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        console.log(`✉️  [${logLabel}] sent via Brevo to ${mailOptions.to}, ID: ${data.messageId}`);
+        return { success: true, messageId: data.messageId };
+      } else {
+        console.error(`❌ [${logLabel}] Brevo error:`, data);
+        return { success: false, error: data.message || JSON.stringify(data) };
+      }
+    } catch (error) {
+      console.error(`❌ [${logLabel}] Brevo fetch error:`, error.message);
+      return { success: false, error: error.message };
+    }
+  }
+
   // Send via Resend HTTP API (works on Railway, no SMTP ports needed)
   async _sendViaResend(mailOptions, logLabel) {
     try {
@@ -100,6 +146,11 @@ class EmailService {
 
   async _sendMail(mailOptions, logLabel) {
     await this._ensureReady();
+
+    // Use Brevo if configured
+    if (this._useBrevo) {
+      return this._sendViaBrevo(mailOptions, logLabel);
+    }
 
     // Use Resend if configured
     if (this._useResend) {
