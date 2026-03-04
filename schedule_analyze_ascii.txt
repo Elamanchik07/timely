@@ -1,0 +1,36 @@
+Analyzing schedule_page.dart...                                 
+
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:135:83 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:137:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:137:46 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:139:96 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:150:87 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:152:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:152:59 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:154:97 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:284:42 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:287:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:289:26 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:332:57 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:356:37 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:378:79 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:380:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:382:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:388:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:426:26 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:452:42 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:455:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:457:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:466:20 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:482:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:485:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:490:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:508:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:562:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:564:79 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:569:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:573:42 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:580:110 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:608:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:637:47 - deprecated_member_use
+

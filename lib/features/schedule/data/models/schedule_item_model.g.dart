@@ -1,0 +1,35 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'schedule_item_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$ScheduleItemModelImpl _$$ScheduleItemModelImplFromJson(
+        Map<String, dynamic> json) =>
+    _$ScheduleItemModelImpl(
+      id: json['id'] as String,
+      subject: json['subject'] as String? ?? '',
+      type: json['type'] as String? ?? 'Lecture',
+      startTime: json['startTime'] as String? ?? '',
+      endTime: json['endTime'] as String? ?? '',
+      teacher: json['teacher'] as String? ?? '',
+      room: json['room'] as String? ?? '',
+      dayOfWeek: (json['dayOfWeek'] as num?)?.toInt() ?? 1,
+      pairNumber: (json['pairNumber'] as num?)?.toInt() ?? 1,
+    );
+
+Map<String, dynamic> _$$ScheduleItemModelImplToJson(
+        _$ScheduleItemModelImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'subject': instance.subject,
+      'type': instance.type,
+      'startTime': instance.startTime,
+      'endTime': instance.endTime,
+      'teacher': instance.teacher,
+      'room': instance.room,
+      'dayOfWeek': instance.dayOfWeek,
+      'pairNumber': instance.pairNumber,
+    };

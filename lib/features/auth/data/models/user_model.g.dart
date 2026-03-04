@@ -1,0 +1,35 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'user_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$UserModelImpl _$$UserModelImplFromJson(Map<String, dynamic> json) =>
+    _$UserModelImpl(
+      id: json['id'] as String,
+      fullName: json['fullName'] as String,
+      email: json['email'] as String,
+      role: json['role'] as String,
+      status: json['status'] as String,
+      groupCode: json['groupCode'] as String?,
+      phone: json['phone'] as String?,
+      avatar: json['avatar'] as String?,
+      faculty: json['faculty'] as String?,
+      course: (json['course'] as num?)?.toInt(),
+    );
+
+Map<String, dynamic> _$$UserModelImplToJson(_$UserModelImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'fullName': instance.fullName,
+      'email': instance.email,
+      'role': instance.role,
+      'status': instance.status,
+      'groupCode': instance.groupCode,
+      'phone': instance.phone,
+      'avatar': instance.avatar,
+      'faculty': instance.faculty,
+      'course': instance.course,
+    };

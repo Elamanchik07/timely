@@ -1,0 +1,1066 @@
+[
+    {
+        "code": "LIBRARY",
+        "floor": 1,
+        "type": "area",
+        "label": "Библиотека",
+        "mapId": "floor1"
+    },
+    {
+        "code": "ASSEMBLY_HALL_1",
+        "floor": 1,
+        "type": "area",
+        "label": "Актовый зал (1 этаж)",
+        "mapId": "floor1"
+    },
+    {
+        "code": "COWORKING",
+        "floor": 1,
+        "type": "area",
+        "label": "Коворкинг",
+        "mapId": "floor1"
+    },
+    {
+        "code": "ATRIUM",
+        "floor": 1,
+        "type": "area",
+        "label": "Атриум",
+        "mapId": "floor1"
+    },
+    {
+        "code": "DINING_HALL",
+        "floor": 1,
+        "type": "area",
+        "label": "Столовая",
+        "mapId": "floor1"
+    },
+    {
+        "code": "121",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 121",
+        "mapId": "floor1"
+    },
+    {
+        "code": "121K",
+        "floor": 1,
+        "type": "room",
+        "label": "Кабинет 121К",
+        "mapId": "floor1"
+    },
+    {
+        "code": "122K",
+        "floor": 1,
+        "type": "room",
+        "label": "Кабинет 122К",
+        "mapId": "floor1"
+    },
+    {
+        "code": "123K",
+        "floor": 1,
+        "type": "room",
+        "label": "Кабинет 123К",
+        "mapId": "floor1"
+    },
+    {
+        "code": "124K",
+        "floor": 1,
+        "type": "room",
+        "label": "Кабинет 124К",
+        "mapId": "floor1"
+    },
+    {
+        "code": "125",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 125",
+        "mapId": "floor1"
+    },
+    {
+        "code": "126",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 126",
+        "mapId": "floor1"
+    },
+    {
+        "code": "128",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 128",
+        "mapId": "floor1"
+    },
+    {
+        "code": "129",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 129",
+        "mapId": "floor1"
+    },
+    {
+        "code": "130",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 130",
+        "mapId": "floor1"
+    },
+    {
+        "code": "133",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 133",
+        "mapId": "floor1"
+    },
+    {
+        "code": "135",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 135",
+        "mapId": "floor1"
+    },
+    {
+        "code": "136",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 136",
+        "mapId": "floor1"
+    },
+    {
+        "code": "137P",
+        "floor": 1,
+        "type": "room",
+        "label": "Практическая 137П",
+        "mapId": "floor1"
+    },
+    {
+        "code": "138L",
+        "floor": 1,
+        "type": "room",
+        "label": "Лаборатория 138Л",
+        "mapId": "floor1"
+    },
+    {
+        "code": "139",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 139",
+        "mapId": "floor1"
+    },
+    {
+        "code": "141",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 141",
+        "mapId": "floor1"
+    },
+    {
+        "code": "142",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 142",
+        "mapId": "floor1"
+    },
+    {
+        "code": "143",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 143",
+        "mapId": "floor1"
+    },
+    {
+        "code": "155",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 155",
+        "mapId": "floor1"
+    },
+    {
+        "code": "156",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 156",
+        "mapId": "floor1"
+    },
+    {
+        "code": "163",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 163",
+        "mapId": "floor1"
+    },
+    {
+        "code": "164",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 164",
+        "mapId": "floor1"
+    },
+    {
+        "code": "165",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 165",
+        "mapId": "floor1"
+    },
+    {
+        "code": "168",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 168",
+        "mapId": "floor1"
+    },
+    {
+        "code": "187",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 187",
+        "mapId": "floor1"
+    },
+    {
+        "code": "188",
+        "floor": 1,
+        "type": "room",
+        "label": "Аудитория 188",
+        "mapId": "floor1"
+    },
+    {
+        "code": "ASSEMBLY_HALL_2",
+        "floor": 2,
+        "type": "area",
+        "label": "Актовый зал (2 этаж)",
+        "mapId": "floor2"
+    },
+    {
+        "code": "221P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 221П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "222P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 222П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "223P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 223П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "224P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 224П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "225P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 225П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "226P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 226П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "227P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 227П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "228P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 228П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "229P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 229П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "230P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 230П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "231P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 231П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "232P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 232П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "233P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 233П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "234P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 234П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "235P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 235П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "236P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 236П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "237P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 237П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "233L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 233Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "235L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 235Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "237L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 237Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "238K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 238К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "239K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 239К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "240K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 240К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "241K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 241К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "242K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 242К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "243K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 243К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "244K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 244К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "245K",
+        "floor": 2,
+        "type": "room",
+        "label": "Кабинет 245К",
+        "mapId": "floor2"
+    },
+    {
+        "code": "246",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 246",
+        "mapId": "floor2"
+    },
+    {
+        "code": "248",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 248",
+        "mapId": "floor2"
+    },
+    {
+        "code": "248L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 248Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "249L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 249Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "250",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 250",
+        "mapId": "floor2"
+    },
+    {
+        "code": "250L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 250Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "251L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 251Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "252L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 252Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "253L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 253Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "254L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 254Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "255L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 255Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "256P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 256П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "257P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 257П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "258P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 258П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "259P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 259П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "260P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 260П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "261P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 261П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "262P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 262П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "263P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 263П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "264L",
+        "floor": 2,
+        "type": "room",
+        "label": "Лаборатория 264Л",
+        "mapId": "floor2"
+    },
+    {
+        "code": "265",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 265",
+        "mapId": "floor2"
+    },
+    {
+        "code": "266P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 266П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "267P",
+        "floor": 2,
+        "type": "room",
+        "label": "Практическая 267П",
+        "mapId": "floor2"
+    },
+    {
+        "code": "268",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 268",
+        "mapId": "floor2"
+    },
+    {
+        "code": "269",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 269",
+        "mapId": "floor2"
+    },
+    {
+        "code": "270",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 270",
+        "mapId": "floor2"
+    },
+    {
+        "code": "271",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 271",
+        "mapId": "floor2"
+    },
+    {
+        "code": "272",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 272",
+        "mapId": "floor2"
+    },
+    {
+        "code": "273",
+        "floor": 2,
+        "type": "room",
+        "label": "Аудитория 273",
+        "mapId": "floor2"
+    },
+    {
+        "code": "OPEN_SPACE",
+        "floor": 3,
+        "type": "area",
+        "label": "Open Space",
+        "mapId": "floor3"
+    },
+    {
+        "code": "318P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 318П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "319P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 319П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "320",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 320",
+        "mapId": "floor3"
+    },
+    {
+        "code": "321",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 321",
+        "mapId": "floor3"
+    },
+    {
+        "code": "322",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 322",
+        "mapId": "floor3"
+    },
+    {
+        "code": "323",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 323",
+        "mapId": "floor3"
+    },
+    {
+        "code": "324",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 324",
+        "mapId": "floor3"
+    },
+    {
+        "code": "325",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 325",
+        "mapId": "floor3"
+    },
+    {
+        "code": "326L",
+        "floor": 3,
+        "type": "room",
+        "label": "Лаборатория 326Л",
+        "mapId": "floor3"
+    },
+    {
+        "code": "327K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 327К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "328",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 328",
+        "mapId": "floor3"
+    },
+    {
+        "code": "328L",
+        "floor": 3,
+        "type": "room",
+        "label": "Лаборатория 328Л",
+        "mapId": "floor3"
+    },
+    {
+        "code": "329",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 329",
+        "mapId": "floor3"
+    },
+    {
+        "code": "330",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 330",
+        "mapId": "floor3"
+    },
+    {
+        "code": "331",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 331",
+        "mapId": "floor3"
+    },
+    {
+        "code": "332",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 332",
+        "mapId": "floor3"
+    },
+    {
+        "code": "333",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 333",
+        "mapId": "floor3"
+    },
+    {
+        "code": "334",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 334",
+        "mapId": "floor3"
+    },
+    {
+        "code": "335",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 335",
+        "mapId": "floor3"
+    },
+    {
+        "code": "336",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 336",
+        "mapId": "floor3"
+    },
+    {
+        "code": "337",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 337",
+        "mapId": "floor3"
+    },
+    {
+        "code": "338",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 338",
+        "mapId": "floor3"
+    },
+    {
+        "code": "339",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 339",
+        "mapId": "floor3"
+    },
+    {
+        "code": "340",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 340",
+        "mapId": "floor3"
+    },
+    {
+        "code": "341",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 341",
+        "mapId": "floor3"
+    },
+    {
+        "code": "342",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 342",
+        "mapId": "floor3"
+    },
+    {
+        "code": "343",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 343",
+        "mapId": "floor3"
+    },
+    {
+        "code": "344",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 344",
+        "mapId": "floor3"
+    },
+    {
+        "code": "345",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 345",
+        "mapId": "floor3"
+    },
+    {
+        "code": "346",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 346",
+        "mapId": "floor3"
+    },
+    {
+        "code": "347P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 347П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "348K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 348К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "349P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 349П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "350P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 350П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "352K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 352К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "353P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 353П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "354K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 354К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "355P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 355П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "357K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 357К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "358K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 358К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "359",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 359",
+        "mapId": "floor3"
+    },
+    {
+        "code": "360",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 360",
+        "mapId": "floor3"
+    },
+    {
+        "code": "360K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 360К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "361",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 361",
+        "mapId": "floor3"
+    },
+    {
+        "code": "362",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 362",
+        "mapId": "floor3"
+    },
+    {
+        "code": "362P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 362П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "363",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 363",
+        "mapId": "floor3"
+    },
+    {
+        "code": "364",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 364",
+        "mapId": "floor3"
+    },
+    {
+        "code": "365",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 365",
+        "mapId": "floor3"
+    },
+    {
+        "code": "366L",
+        "floor": 3,
+        "type": "room",
+        "label": "Лаборатория 366Л",
+        "mapId": "floor3"
+    },
+    {
+        "code": "366P",
+        "floor": 3,
+        "type": "room",
+        "label": "Практическая 366П",
+        "mapId": "floor3"
+    },
+    {
+        "code": "367",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 367",
+        "mapId": "floor3"
+    },
+    {
+        "code": "367K",
+        "floor": 3,
+        "type": "room",
+        "label": "Кабинет 367К",
+        "mapId": "floor3"
+    },
+    {
+        "code": "368",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 368",
+        "mapId": "floor3"
+    },
+    {
+        "code": "369",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 369",
+        "mapId": "floor3"
+    },
+    {
+        "code": "370",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 370",
+        "mapId": "floor3"
+    },
+    {
+        "code": "370L",
+        "floor": 3,
+        "type": "room",
+        "label": "Лаборатория 370Л",
+        "mapId": "floor3"
+    },
+    {
+        "code": "371",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 371",
+        "mapId": "floor3"
+    },
+    {
+        "code": "374",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 374",
+        "mapId": "floor3"
+    },
+    {
+        "code": "375",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 375",
+        "mapId": "floor3"
+    },
+    {
+        "code": "376",
+        "floor": 3,
+        "type": "room",
+        "label": "Аудитория 376",
+        "mapId": "floor3"
+    }
+]

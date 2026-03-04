@@ -1,0 +1,26 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$GroupImpl _$$GroupImplFromJson(Map<String, dynamic> json) => _$GroupImpl(
+      id: json['id'] as String?,
+      groupCode: json['groupCode'] as String,
+      title: json['title'] as String?,
+      description: json['description'] as String?,
+      course: (json['course'] as num?)?.toInt(),
+      courseId: json['courseId'] as String?,
+      shift: (json['shift'] as num).toInt(),
+      isActive: json['isActive'] as bool? ?? true,
+    );
+
+Map<String, dynamic> _$$GroupImplToJson(_$GroupImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'groupCode': instance.groupCode,
+      'title': instance.title,
+      'description': instance.description,
+      'course': instance.course,
+      'courseId': instance.courseId,
+      'shift': instance.shift,
+      'isActive': instance.isActive,
+    };

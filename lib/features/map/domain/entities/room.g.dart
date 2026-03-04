@@ -1,0 +1,40 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'room.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$RoomImpl _$$RoomImplFromJson(Map<String, dynamic> json) => _$RoomImpl(
+      id: json['id'] as String,
+      code: json['code'] as String? ?? '',
+      fullCode: json['fullCode'] as String,
+      shortCode: json['shortCode'] as String? ?? '',
+      sector: json['sector'] as String? ?? 'C1.1',
+      title: json['title'] as String,
+      floor: (json['floor'] as num).toInt(),
+      building: json['building'] as String,
+      lat: (json['lat'] as num?)?.toDouble(),
+      lng: (json['lng'] as num?)?.toDouble(),
+      teacherId: json['teacherId'] as String?,
+      description: json['description'] as String?,
+      isActive: json['isActive'] as bool? ?? true,
+    );
+
+Map<String, dynamic> _$$RoomImplToJson(_$RoomImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'code': instance.code,
+      'fullCode': instance.fullCode,
+      'shortCode': instance.shortCode,
+      'sector': instance.sector,
+      'title': instance.title,
+      'floor': instance.floor,
+      'building': instance.building,
+      'lat': instance.lat,
+      'lng': instance.lng,
+      'teacherId': instance.teacherId,
+      'description': instance.description,
+      'isActive': instance.isActive,
+    };

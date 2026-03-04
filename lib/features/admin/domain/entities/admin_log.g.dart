@@ -1,0 +1,33 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'admin_log.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$AdminLogImpl _$$AdminLogImplFromJson(Map<String, dynamic> json) =>
+    _$AdminLogImpl(
+      id: json['id'] as String?,
+      adminId: json['adminId'] as String,
+      adminEmail: json['adminEmail'] as String,
+      action: json['action'] as String,
+      targetId: json['targetId'] as String?,
+      targetModel: json['targetModel'] as String?,
+      details: json['details'] as String?,
+      createdAt: json['createdAt'] == null
+          ? null
+          : DateTime.parse(json['createdAt'] as String),
+    );
+
+Map<String, dynamic> _$$AdminLogImplToJson(_$AdminLogImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'adminId': instance.adminId,
+      'adminEmail': instance.adminEmail,
+      'action': instance.action,
+      'targetId': instance.targetId,
+      'targetModel': instance.targetModel,
+      'details': instance.details,
+      'createdAt': instance.createdAt?.toIso8601String(),
+    };
