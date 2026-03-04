@@ -53,7 +53,10 @@ class EmailService {
         },
         tls: {
           rejectUnauthorized: false
-        }
+        },
+        connectionTimeout: 5000,
+        socketTimeout: 5000,
+        greetingTimeout: 5000
       });
 
       this.transporter.isEthereal = false;
@@ -167,16 +170,14 @@ class EmailService {
   }
 
   async sendPasswordResetCode(userEmail, fullName, code) {
-    // ALWAYS log the code in dev mode for testing
-    if (process.env.NODE_ENV !== 'production') {
-      console.log('');
-      console.log('╔══════════════════════════════════════╗');
-      console.log('║    🔑 PASSWORD RESET CODE            ║');
-      console.log(`║    User:  ${userEmail.padEnd(26)}║`);
-      console.log(`║    Code:  ${String(code).padEnd(26)}║`);
-      console.log('╚══════════════════════════════════════╝');
-      console.log('');
-    }
+    // ALWAYS log the code in dev/prod for debugging if SMTP blocked
+    console.log('');
+    console.log('╔══════════════════════════════════════╗');
+    console.log('║    🔑 PASSWORD RESET CODE            ║');
+    console.log(`║    User:  ${userEmail.padEnd(26)}║`);
+    console.log(`║    Code:  ${String(code).padEnd(26)}║`);
+    console.log('╚══════════════════════════════════════╝');
+    console.log('');
 
     return this._sendMail({
       from: `"Timely App" <${process.env.EMAIL_USER || 'noreply@timely.app'}>`,

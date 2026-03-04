@@ -215,9 +215,8 @@ router.post('/password/reset/request', async (req, res) => {
 
         await user.save();
 
-        // Send email with code
-        try {
-            const emailResult = await emailService.sendPasswordResetCode(normalizedEmail, user.fullName, code);
+        // Send email with code asynchronously (don't await) so we don't hang the client if SMTP is blocked
+        emailService.sendPasswordResetCode(normalizedEmail, user.fullName, code).then(async emailResult => {
             if (emailResult.success) {
                 console.log(`[INFO] Password reset code sent to ${normalizedEmail}, MsgID: ${emailResult.messageId}`);
                 user.resetPasswordEmailStatus = `SENT_SUCCESS (ID: ${emailResult.messageId})`;
@@ -226,11 +225,11 @@ router.post('/password/reset/request', async (req, res) => {
                 user.resetPasswordEmailStatus = `FAILED: ${emailResult.error}`;
             }
             await user.save(); // Save the email status
-        } catch (emailErr) {
+        }).catch(async emailErr => {
             console.error(`[WARN] Exception while sending reset email to ${normalizedEmail}:`, emailErr);
             user.resetPasswordEmailStatus = `EXCEPTION: ${emailErr.message}`;
             await user.save();
-        }
+        });
 
         res.json(genericSuccess);
 
