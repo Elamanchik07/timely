@@ -1,0 +1,22 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'course.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$CourseImpl _$$CourseImplFromJson(Map<String, dynamic> json) => _$CourseImpl(
+      id: json['id'] as String?,
+      number: (json['number'] as num).toInt(),
+      title: json['title'] as String?,
+      isActive: json['isActive'] as bool? ?? true,
+    );
+
+Map<String, dynamic> _$$CourseImplToJson(_$CourseImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'number': instance.number,
+      'title': instance.title,
+      'isActive': instance.isActive,
+    };

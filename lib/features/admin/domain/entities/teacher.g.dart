@@ -1,0 +1,28 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'teacher.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$TeacherImpl _$$TeacherImplFromJson(Map<String, dynamic> json) =>
+    _$TeacherImpl(
+      id: json['id'] as String?,
+      fullName: json['fullName'] as String,
+      phone: json['phone'] as String?,
+      subjects: (json['subjects'] as List<dynamic>?)
+              ?.map((e) => e as String)
+              .toList() ??
+          const [],
+      isActive: json['isActive'] as bool? ?? true,
+    );
+
+Map<String, dynamic> _$$TeacherImplToJson(_$TeacherImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'fullName': instance.fullName,
+      'phone': instance.phone,
+      'subjects': instance.subjects,
+      'isActive': instance.isActive,
+    };

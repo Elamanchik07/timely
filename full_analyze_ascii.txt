@@ -1,0 +1,210 @@
+Analyzing mobile_project_app...                                 
+
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_theme.dart:174:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_theme.dart:251:31 - deprecated_member_use
+warning - Unused import: 'package:mobile_project_app/core/theme/app_theme.dart' - lib\core\widgets\main_wrapper.dart:3:8 - unused_import
+warning - Unused import: '../theme/app_theme.dart' - lib\core\widgets\timely_input.dart:2:8 - unused_import
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_courses_groups_list.dart:95:21 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_courses_groups_list.dart:102:21 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_map_editor.dart:55:23 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_map_editor.dart:64:23 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\admin\presentation\screens\admin_news_editor.dart:120:15 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_news_list.dart:31:50 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\admin\presentation\screens\admin_schedule_builder.dart:77:45 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\admin\presentation\screens\admin_schedule_builder.dart:82:45 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\admin\presentation\screens\admin_schedule_builder.dart:110:43 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\admin\presentation\screens\admin_schedule_builder.dart:115:43 - use_build_context_synchronously
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_schedule_builder.dart:143:21 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_schedule_builder.dart:225:21 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\admin\presentation\screens\admin_schedule_builder.dart:245:21 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_schedule_builder.dart:315:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_students_list.dart:28:84 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\admin_students_list.dart:30:17 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\admin_students_list.dart:30:56 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_students_list.dart:114:50 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\admin\presentation\screens\admin_students_list.dart:181:14 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_students_list.dart:201:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_students_list.dart:201:136 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\admin\presentation\screens\admin_students_list.dart:223:73 - deprecated_member_use
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\auth\presentation\pages\pending_approval_screen.dart:51:54 - undefined_getter
+  error - Invalid constant value - lib\features\auth\presentation\pages\pending_approval_screen.dart:55:71 - invalid_constant
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\auth\presentation\pages\pending_approval_screen.dart:55:80 - undefined_getter
+  error - Invalid constant value - lib\features\auth\presentation\pages\pending_approval_screen.dart:79:51 - invalid_constant
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\auth\presentation\pages\pending_approval_screen.dart:79:60 - undefined_getter
+  error - The name 'AuthState' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\pages\register_page.dart:58:16 - non_type_as_type_argument
+  error - The property 'error' can't be unconditionally accessed because the receiver can be 'null' - lib\features\auth\presentation\pages\register_page.dart:59:16 - unchecked_use_of_nullable_value
+  error - The property 'isLoading' can't be unconditionally accessed because the receiver can be 'null' - lib\features\auth\presentation\pages\register_page.dart:59:39 - unchecked_use_of_nullable_value
+  error - The property 'error' can't be unconditionally accessed because the receiver can be 'null' - lib\features\auth\presentation\pages\register_page.dart:62:32 - unchecked_use_of_nullable_value
+  error - The property 'isLoading' can't be unconditionally accessed because the receiver can be 'null' - lib\features\auth\presentation\pages\register_page.dart:66:24 - unchecked_use_of_nullable_value
+  error - The property 'error' can't be unconditionally accessed because the receiver can be 'null' - lib\features\auth\presentation\pages\register_page.dart:66:42 - unchecked_use_of_nullable_value
+  error - The getter 'isLoading' isn't defined for the type 'Object' - lib\features\auth\presentation\pages\register_page.dart:75:24 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\auth\presentation\pages\register_page.dart:126:54 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\auth\presentation\pages\register_page.dart:182:54 - undefined_getter
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\auth\presentation\pages\register_page.dart:201:29 - deprecated_member_use
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\auth\presentation\pages\register_page.dart:249:54 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\login_screen.dart:104:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\register_screen.dart:144:52 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\auth\presentation\screens\register_screen.dart:204:33 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\auth\presentation\screens\register_screen.dart:223:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\splash_screen.dart:114:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\splash_screen.dart:119:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\splash_screen.dart:147:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\splash_screen.dart:159:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\status_screen.dart:32:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\status_screen.dart:34:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\status_screen.dart:125:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\status_screen.dart:127:52 - deprecated_member_use
+warning - The annotation 'JsonKey.new' can only be used on fields or getters - lib\features\map\data\models\room_model.dart:9:6 - invalid_annotation_target
+warning - Unused import: 'package:mobile_project_app/core/theme/app_theme.dart' - lib\features\map\presentation\map_page.dart:3:8 - unused_import
+warning - The value of the field '_isSearching' isn't used - lib\features\map\presentation\map_page.dart:24:8 - unused_field
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\map_page.dart:224:57 - deprecated_member_use
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\features\map\presentation\map_page.dart:267:26 - deprecated_member_use
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\features\map\presentation\map_page.dart:273:26 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\map_page.dart:373:62 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\map\presentation\map_page.dart:414:19 - prefer_const_constructors
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\features\map\presentation\screens\map_page.dart:184:9 - deprecated_member_use
+   info - 'translate' is deprecated and shouldn't be used. Use translateByVector3, translateByVector4, or translateByDouble instead - lib\features\map\presentation\screens\map_page.dart:185:9 - deprecated_member_use
+   info - 'translate' is deprecated and shouldn't be used. Use translateByVector3, translateByVector4, or translateByDouble instead - lib\features\map\presentation\screens\map_page.dart:217:11 - deprecated_member_use
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\features\map\presentation\screens\map_page.dart:218:11 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\screens\map_page.dart:303:66 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\screens\map_page.dart:402:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\screens\map_page.dart:429:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\screens\map_page.dart:467:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\screens\map_page.dart:481:78 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\map\presentation\screens\map_page.dart:508:49 - deprecated_member_use
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\features\map\presentation\screens\map_page.dart:560:28 - deprecated_member_use
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\features\map\presentation\screens\map_page.dart:571:28 - deprecated_member_use
+   info - Empty catch block - lib\features\news\presentation\providers\news_provider.dart:86:17 - empty_catches
+   info - Empty catch block - lib\features\news\presentation\providers\news_provider.dart:93:17 - empty_catches
+   info - Use 'const' with the constructor to improve performance - lib\features\news\presentation\screens\news_details_screen.dart:68:32 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\news\presentation\screens\news_feed_screen.dart:26:89 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\news\presentation\widgets\news_item_card.dart:36:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\news\presentation\widgets\news_item_card.dart:81:83 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\news\presentation\widgets\news_item_card.dart:90:32 - prefer_const_constructors
+  error - The getter 'user' isn't defined for the type 'AsyncValue<User?>' - lib\features\profile\presentation\profile_page.dart:13:28 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\profile\presentation\profile_page.dart:62:52 - undefined_getter
+  error - Invalid constant value - lib\features\profile\presentation\profile_page.dart:77:34 - invalid_constant
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\profile\presentation\profile_page.dart:77:43 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\profile\presentation\profile_page.dart:176:31 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\profile\presentation\profile_page.dart:179:47 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:124:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:134:79 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:169:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:170:45 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\profile\presentation\screens\profile_page.dart:261:20 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:270:88 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:273:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:277:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\presentation\screens\profile_page.dart:290:66 - deprecated_member_use
+warning - The annotation 'JsonKey.new' can only be used on fields or getters - lib\features\schedule\data\models\schedule_item_model.dart:9:6 - invalid_annotation_target
+warning - Unused import: 'package:dio/dio.dart' - lib\features\schedule\presentation\schedule_page.dart:8:8 - unused_import
+  error - Invalid constant value - lib\features\schedule\presentation\schedule_page.dart:58:24 - invalid_constant
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:58:33 - undefined_getter
+   info - 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre - lib\features\schedule\presentation\schedule_page.dart:63:13 - deprecated_member_use
+  error - The getter 'user' isn't defined for the type 'AsyncValue<User?>' - lib\features\schedule\presentation\schedule_page.dart:84:43 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:168:41 - undefined_getter
+  error - Invalid constant value - lib\features\schedule\presentation\schedule_page.dart:170:65 - invalid_constant
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:170:74 - undefined_getter
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\schedule_page.dart:192:19 - prefer_const_constructors
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:221:46 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:226:37 - undefined_getter
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\schedule_page.dart:289:27 - prefer_const_constructors
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:293:76 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:342:30 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\schedule_page.dart:353:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\schedule_page.dart:388:50 - deprecated_member_use
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:502:35 - undefined_getter
+  error - Invalid constant value - lib\features\schedule\presentation\schedule_page.dart:507:49 - invalid_constant
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:507:58 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:526:47 - undefined_getter
+  error - The getter 'primaryColor' isn't defined for the type 'AppTheme' - lib\features\schedule\presentation\schedule_page.dart:550:47 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\schedule_page.dart:573:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:135:83 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:137:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:137:46 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:139:96 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:150:87 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:152:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:152:59 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:154:97 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:284:42 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:287:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:289:26 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:332:57 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:356:37 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:378:79 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:380:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:382:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:388:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:426:26 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:452:42 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:455:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:457:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:466:20 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:482:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:485:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:490:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:508:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:562:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:564:79 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:569:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\schedule\presentation\screens\schedule_page.dart:573:42 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:580:110 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:608:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\schedule\presentation\screens\schedule_page.dart:637:47 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_page.dart:30:13 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\features\settings\presentation\screens\settings_page.dart:74:21 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:84:76 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:90:74 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:106:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:124:24 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:125:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:125:55 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:140:16 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\settings\presentation\screens\settings_page.dart:156:41 - deprecated_member_use
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:226:20 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\settings\presentation\screens\settings_page.dart:226:41 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:68:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:70:67 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:72:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:96:55 - deprecated_member_use
+  error - Target of URI doesn't exist: 'package:mobile_project_app/adminka.dart' - test\counter_test.dart:6:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:mobile_project_app/login_page.dart' - test\counter_test.dart:7:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:mobile_project_app/register_page.dart' - test\counter_test.dart:8:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: 'package:mobile_project_app/profile.dart' - test\counter_test.dart:9:8 - uri_does_not_exist
+  error - Invalid constant value - test\counter_test.dart:50:55 - invalid_constant
+  error - The function 'LoginPage' isn't defined - test\counter_test.dart:50:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:59:55 - invalid_constant
+  error - The function 'LoginPage' isn't defined - test\counter_test.dart:59:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:69:55 - invalid_constant
+  error - The function 'LoginPage' isn't defined - test\counter_test.dart:69:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:76:55 - invalid_constant
+  error - The function 'LoginPage' isn't defined - test\counter_test.dart:76:55 - undefined_function
+  error - The name 'LoginPage' isn't a class - test\counter_test.dart:84:21 - creation_with_non_type
+  error - The name 'RegisterPage' isn't a class - test\counter_test.dart:86:43 - creation_with_non_type
+  error - Invalid constant value - test\counter_test.dart:100:55 - invalid_constant
+  error - The function 'RegisterPage' isn't defined - test\counter_test.dart:100:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:109:55 - invalid_constant
+  error - The function 'RegisterPage' isn't defined - test\counter_test.dart:109:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:119:55 - invalid_constant
+  error - The function 'RegisterPage' isn't defined - test\counter_test.dart:119:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:135:55 - invalid_constant
+  error - The function 'RegisterPage' isn't defined - test\counter_test.dart:135:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:142:55 - invalid_constant
+  error - The function 'RegisterPage' isn't defined - test\counter_test.dart:142:55 - undefined_function
+  error - The name 'RegisterPage' isn't a class - test\counter_test.dart:150:21 - creation_with_non_type
+  error - The name 'LoginPage' isn't a class - test\counter_test.dart:152:40 - creation_with_non_type
+  error - Invalid constant value - test\counter_test.dart:208:55 - invalid_constant
+  error - Invalid constant value - test\counter_test.dart:216:55 - invalid_constant
+  error - Invalid constant value - test\counter_test.dart:224:55 - invalid_constant
+  error - Invalid constant value - test\counter_test.dart:231:55 - invalid_constant
+  error - Invalid constant value - test\counter_test.dart:239:55 - invalid_constant
+  error - Invalid constant value - test\counter_test.dart:248:55 - invalid_constant
+  error - The function 'ProfilePage' isn't defined - test\counter_test.dart:248:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:254:55 - invalid_constant
+  error - The function 'ProfilePage' isn't defined - test\counter_test.dart:254:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:260:55 - invalid_constant
+  error - The function 'ProfilePage' isn't defined - test\counter_test.dart:260:55 - undefined_function
+  error - Invalid constant value - test\counter_test.dart:267:55 - invalid_constant
+  error - The function 'ProfilePage' isn't defined - test\counter_test.dart:267:55 - undefined_function
+
